@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='signup.css') }}">
+
+  <title>Signup Page</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="signup-box">
+    <form method="post" action="/signup">
+      <div class="user-box">
+        <label for="name"></label>
+        <input type="text" id="name" name="name"><br>
+        <label>Name</label>
+      </div>
+      <div class="user-box">
+        <label for="regno"></label>
+        <input type="text" id="regno" name="regno"><br>
+        <label>Registration Number</label>
+      </div>
+      <div class="user-box">
+        <label for="block"></label>
+        <input type="text" id="block" name="block"><br>
+        <label>Block</label>
+      </div>
+      <div class="user-box">
+        <label for="roomno"></label>
+        <input type="text" id="roomno" name="roomno"><br>
+        <label>Room Number</label>
+      </div>
+      <div class="user-box">
+        <label for="password"></label>
+        <input type="text" id="password" name="password"><br>
+        <label>Password</label>
+      </div>
+      <div class="user-box">
+        <label for="cpassword"></label>
+        <input type="text" id="cpassword" name="cpassword"><br>
+        <label>Confirm Password</label>
+        <button name ="submit" type="submit">Submit</button><center></center>
+      </div>
+      <center>
+    </form>
+  </div>
+</body>
+</html>
