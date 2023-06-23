@@ -27,6 +27,8 @@ wardenAuthRouter.post("/login", async (req, res) => {
       },
     });
 
+    console.log(warden);
+
     if (!warden) {
       return res.status(404).json({
         message: "Warden not found please enter valid block",
