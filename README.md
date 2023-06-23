@@ -1,0 +1,6 @@
+# webverse
+Webverse Hackathon Submission - Team Magnum
+
+21BPS1166 DIPESH NV 
+21BCE5946 SURIYANANDAN
+21BPS1162 SHIVARAM GANESH
